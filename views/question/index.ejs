@@ -1,0 +1,34 @@
+<%- include('../partials/header.ejs') %>
+<body>
+ <%- include('../partials/navbar.ejs') %>
+    <div class="container" id="fomulario-perguntas">
+       <div class="card">
+          <div class="card-header">
+             <h3>Escreva sua pergunta</h3>
+          </div>
+          <div class="card-body">
+             <form method="post" action="/savequestion">
+                <hr>
+                <div class="form-group">
+                   <label for="exampleFormControlTextarea1">Título</label>
+                   <input class="form-control" 
+                      placeholder="title"
+                      id="exampleFormControlTextarea1"
+                      rows="1"
+                      name="title">
+                   </input>
+                </div>
+                <label for="exampleFormControlTextarea1">Descrição</label>
+                <div class="form-group">
+                   <textarea class="form-control" 
+                      placeholder="description"
+                      id="exampleFormControlTextarea1"
+                      rows="3" name="description"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Perguntar</button>
+             </form>
+          </div>
+       </div>
+    </div>
+ </body>
+ <%- include('../partials/footer.ejs') %>

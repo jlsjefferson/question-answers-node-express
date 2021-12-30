@@ -1,0 +1,24 @@
+body {
+          background: #eceff1;
+}
+
+#fomulario-perguntas{
+          margin-top: 15vh;
+}
+#answers{
+          margin-top: 2vh;
+          margin-left: 2vh;
+}
+#nav-header{
+          background: #031951;
+          height: 5vh;
+          color: rgb(255, 255, 255);
+}
+
+#home-perguntas{
+          margin-top: 15vh;
+}
+
+#page-perguntas{
+          margin-top: 15vh;   
+}

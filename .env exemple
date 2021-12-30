@@ -1,0 +1,4 @@
+DB_HOST= your_host_end
+DB_NAME= your_data_base_name
+DB_USER=userdb
+DB_PASS=password
